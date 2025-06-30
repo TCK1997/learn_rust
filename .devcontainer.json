@@ -1,0 +1,17 @@
+{
+    "name": "Learn Rust",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "args": {
+            "DEFAULT_USER": "rustdev"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "rust-lang.rust-analyzer"
+            ]
+        }
+    },
+    "remoteUser": "rustdev"
+}
